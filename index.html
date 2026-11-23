@@ -3,9 +3,9 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="description" content="ほっかいどう地図・境界シンポジウム2027（part 21）令和9年2月12日（金）ANAクラウンプラザホテル札幌。テーマ「新しい筆界認定のかたち」。参加無料・要申込。">
+<meta name="description" content="ほっかいどう地図・境界シンポジウム2027（part 21）令和9年2月12日（金）ANAクラウンプラザホテル札幌。テーマ「新しい筆界調査・認定のかたち」。参加無料・要申込。">
 <meta property="og:title" content="ほっかいどう地図・境界シンポジウム2027">
-<meta property="og:description" content="令和9年2月12日（金）ANAクラウンプラザホテル札幌｜新しい筆界認定のかたち">
+<meta property="og:description" content="令和9年2月12日（金）ANAクラウンプラザホテル札幌｜新しい筆界調査・認定のかたち">
 <meta property="og:type" content="website">
 <meta name="theme-color" content="#140b24">
 <title>ほっかいどう地図・境界シンポジウム2027</title>
@@ -86,10 +86,14 @@ h2{font-family:var(--f-disp);font-weight:900;font-size:28px;line-height:1.35;mar
 
 .parts{display:grid;gap:16px}
 .pt{background:var(--glass-2);border:1px solid var(--line);padding:20px 22px;display:grid;grid-template-columns:auto 1fr;gap:4px 20px}
-.pt .p-no{font-family:var(--f-disp);font-weight:900;font-size:44px;line-height:1;color:var(--pink);grid-row:span 3}
+.pt .p-no{font-family:var(--f-disp);font-weight:900;font-size:44px;line-height:1;color:var(--pink);grid-row:1 / span 5;grid-column:1}
 .pt .p-kind{font-size:12px;letter-spacing:.2em;color:var(--cyan)}
 .pt h3{font-family:var(--f-disp);font-weight:600;font-size:21px;margin:0;line-height:1.5}
 .pt ul{list-style:none;margin:6px 0 0;padding:0;font-size:15px}
+.pt h3 small{display:block;font-size:15px;font-weight:500;opacity:.85}
+.pt ul small{font-size:12.5px;opacity:.8}
+.pt .p-desc{font-size:14px;line-height:1.8;margin:8px 0 0;opacity:.9;grid-column:2}
+.pt > *:not(.p-no){grid-column:2}
 .pt li{display:flex;gap:10px;flex-wrap:wrap}
 .pt li .r{color:var(--sub);min-width:9em}
 
@@ -153,15 +157,15 @@ footer small{color:var(--sub)}
 <div class="bgfix" aria-hidden="true"></div>
 <header class="hero" id="top">
   <div class="wrap">
-    <p class="vtitle" aria-hidden="true">新しい筆界認定のかたち</p>
+    <p class="vtitle" aria-hidden="true">新しい筆界調査・認定のかたち</p>
     <div class="hinfo">
       <div class="partno"><small>Part</small>21</div>
       <img class="logo" src="data:image/jpeg;base64,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" alt="境界紛争ゼロ宣言" width="91" height="46">
-      <h1>ほっかいどう地図・境界シンポジウム2027<br>「新しい筆界認定のかたち」</h1>
-      <p class="sub-theme">筆界確認情報の取扱いに関する指針が現場をどう変えたか<span class="tbd">仮</span></p>
+      <h1>ほっかいどう地図・境界シンポジウム2027<br>「新しい筆界調査・認定のかたち」</h1>
+      <p class="sub-theme">筆界確認情報の取扱いに関する指針が現場をどう変えるか</p>
       <div class="tri" aria-hidden="true"></div>
       <dl class="facts">
-        <div><dt>日時</dt><dd><b>2027.2.12</b> 金　開場 13:00 ／ 開演 13:30</dd></div>
+        <div><dt>日時</dt><dd><b>2027.2.12</b> 金　13:30〜17:00（受付 13:00〜）</dd></div>
         <div><dt>会場</dt><dd>ANAクラウンプラザホテル札幌 3階「鳳」</dd></div>
         <div><dt>参加費</dt><dd>無料</dd></div>
       </dl>
@@ -178,7 +182,7 @@ footer small{color:var(--sub)}
   <div class="sec">
     <div class="sec-h"><div class="num">ABOUT</div><h2>開催趣旨</h2></div>
     <div>
-      <p class="lead">本シンポジウムでは、筆界確認情報の取扱いに関する指針が筆界認定の現場にもたらした変化について理解を深め、広く普及することを目的として開催します。<span class="tbd">案</span></p>
+      <p class="lead">本シンポジウムでは、筆界確認情報の取扱いに関する指針が筆界調査・認定の現場にもたらす可能性のある変化について理解を深め、広く普及することを目的として開催します。<span class="tbd">案</span></p>
       <p class="lead note">法務局・自治体など官公署の皆さま、土地家屋調査士、関係団体の皆さま、どなたでもご参加いただけます。土地家屋調査士の方にはCPDポイントが付与されます。</p>
     </div>
   </div>
@@ -191,16 +195,17 @@ footer small{color:var(--sub)}
       <article class="pt">
         <div class="p-no">1</div>
         <div class="p-kind">第1部　基調講演</div>
-        <h3>演題 調整中</h3>
-        <ul><li><span class="r">講師</span><span>山口地方法務局長　田中 博幸 氏</span></li></ul>
+        <h3>令和の筆界調査・認定実務<br><small>―公共事業に関わる筆界・境界問題への対応―</small></h3>
+        <ul><li><span class="r">講師</span><span>田中 博幸 様<br><small>（山口地方法務局長、元・法務省民事局民事第二課地図企画官）</small></span></li></ul>
       </article>
       <article class="pt">
         <div class="p-no">2</div>
         <div class="p-kind">第2部　パネルディスカッション</div>
-        <h3>テーマ 調整中</h3>
-        <ul>
+        <h3>令和の筆界調査・認定実務<br><small>―公共事業に関わる筆界・境界問題への対応―</small></h3>
+        <p class="p-desc">第1部の基調講演を踏まえ、筆界確認情報の取扱いに関する指針、旧法定外公共物の境界確定事務、筆界特定制度について、法務局・自治体・土地家屋調査士それぞれの立場から現場の実感を語り合います。</p>
+                <ul>
           <li><span class="r">コーディネーター</span><span>札幌土地家屋調査士会 副会長　浅野 裕士 氏</span></li>
-          <li><span class="r">パネリスト</span><span>田中 博幸 氏 ほか（調整中）</span></li>
+          <li><span class="r">パネリスト</span><span>田中 博幸 様<br>細川 秀樹 様（札幌法務局 総括表示登記専門官）<br>ほか</span></li>
         </ul>
       </article>
     </div>
@@ -213,9 +218,9 @@ footer small{color:var(--sub)}
     <div class="scroll">
       <table class="tbl">
         <tr><th>名称</th><td>ほっかいどう地図・境界シンポジウム2027（part 21）</td></tr>
-        <tr><th>日時</th><td>令和9年（2027年）2月12日（金）　開場 13:00 ／ 開演 13:30</td></tr>
+        <tr><th>日時</th><td>令和9年（2027年）2月12日（金）　13:30〜17:00（受付 13:00〜）</td></tr>
         <tr><th>会場</th><td>ANAクラウンプラザホテル札幌 3階「鳳（おおとり）」<br>札幌市中央区北3条西1丁目2-9</td></tr>
-        <tr><th>テーマ</th><td>新しい筆界認定のかたち</td></tr>
+        <tr><th>テーマ</th><td>新しい筆界調査・認定のかたち<br>―筆界確認情報の取扱いに関する指針が現場をどう変えるか―</td></tr>
         <tr><th>参加費</th><td>無料</td></tr>
         <tr><th>対象</th><td>官公署の皆さま、土地家屋調査士、一般・関係団体の皆さま</td></tr>
         <tr><th>主催</th><td>日本土地家屋調査士会連合会 北海道ブロック協議会</td></tr>
@@ -230,10 +235,10 @@ footer small{color:var(--sub)}
     <ol class="tl">
       <li><time>13:00</time><div class="ev">開場・受付開始<small>受付票のQRコードをご提示ください</small></div></li>
       <li class="key"><time>13:30</time><div class="ev">開会<small>開会の辞・主催者あいさつ・来賓あいさつ</small></div></li>
-      <li><time>—</time><div class="ev">第1部　基調講演<small>山口地方法務局長　田中 博幸 氏</small></div></li>
+      <li><time>—</time><div class="ev">第1部　基調講演<small>令和の筆界調査・認定実務　講師 田中 博幸 様</small></div></li>
       <li><time>—</time><div class="ev">休憩</div></li>
-      <li><time>—</time><div class="ev">第2部　パネルディスカッション</div></li>
-      <li><time>—</time><div class="ev">閉会<small>終了時刻は決まり次第お知らせします</small></div></li>
+      <li><time>—</time><div class="ev">第2部　パネルディスカッション<small>パネリスト 田中 博幸 様・細川 秀樹 様 ほか／コーディネーター 浅野 裕士 氏</small></div></li>
+      <li class="key"><time>17:00</time><div class="ev">閉会</div></li>
       <li class="key"><time>18:00</time><div class="ev">懇親会（予定）<small>同ホテル 3階「祥雲（しょううん）」</small></div></li>
     </ol>
   </div>
